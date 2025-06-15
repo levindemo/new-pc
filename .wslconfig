@@ -1,0 +1,9 @@
+[wsl2]
+
+# CPU限制4核
+processors=4
+
+# 内存限制1GB，虚拟内存也限制1GB
+memory=4GB
+swap=1GB
+#swapfile=C:\\temp\wsl-swap.vsdx
