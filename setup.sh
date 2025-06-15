@@ -3,4 +3,4 @@
 
 USER=`whoami`
 
-sed -i "s/_user_name_/${USER}/g" settings.xml
+sed -i "s/_user_name_/${USER}/g" maven.settings.xml

@@ -53,7 +53,7 @@ under the License.
   <localRepository>/path/to/local/repo</localRepository>
   -->
 
-    <localRepository>D:/Administrator/maven_repository</localRepository>
+    <localRepository>D:/_user_name_/maven_repository</localRepository>
 
 
   <!-- interactiveMode
