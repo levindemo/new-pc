@@ -1,9 +1,9 @@
 [wsl2]
 
-# CPU限制4核
+# set limit to 4 CPU core
 processors=4
 
-# 内存限制1GB，虚拟内存也限制1GB
+# set max ram to 4 GB and swap to 1GB
 memory=4GB
 swap=1GB
 #swapfile=C:\\temp\wsl-swap.vsdx
