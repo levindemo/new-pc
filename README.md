@@ -44,3 +44,7 @@ curl -k https://dlcdn.apache.org/maven/maven-3/3.9.10/binaries/apache-maven-3.9.
 # Repo
 
 https://developer.aliyun.com/mirror/
+
+# Setup VSCode
+
+EDIT THE SETTING FILE

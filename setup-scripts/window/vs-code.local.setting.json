@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.formatOnSave": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "open-in-browser.default": "Chrome",
+    "hediet.vscode-drawio.resizeImages": null,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "GitBash": {
+        "path": [
+          "D:/Software/Git/bin/bash.exe",
+          "D:/Software/Git/git-bash.exe"
+        ],
+        "args": [],
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "GitBash"
+  }

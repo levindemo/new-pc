@@ -1,0 +1,9 @@
+#setup maven
+
+setup-scripts/window/setup-vscode.sh
+
+setup-scripts/docker-first-test.sh
+
+setup-scripts/setup-git.sh
+
+# end of setup
