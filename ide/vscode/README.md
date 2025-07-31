@@ -4,4 +4,6 @@ https://marketplace.visualstudio.com/items?itemName=donjayamanne.git-extension-p
 
 ```
 Git Extension Pack
+Draw.io Integration
+
 ```
