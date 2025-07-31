@@ -26,5 +26,6 @@
         "args": [],
       }
     },
-    "terminal.integrated.defaultProfile.windows": "GitBash"
+    "terminal.integrated.defaultProfile.windows": "GitBash",
+    "git.path": "D:/Software/Git/bin/git.exe"
   }

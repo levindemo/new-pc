@@ -1,10 +1,36 @@
 # new-pc
 
+# Get chrome
+https://www.google.cn/intl/zh-CN/chrome/
+
+
+# Setup Git
+
+https://git-scm.com/downloads/win
+
+# 
+
 # DockerDesktop
 
 https://www.docker.com/products/docker-desktop/
 
 ## setup -> Advance -> Manually update WSL2 by self
+
+## connect docker through pipe
+
+add this entry to docker setting
+
+```json
+{
+  "hosts": ["npipe:////./pipe/docker_engine"]
+}
+```
+
+verfication
+
+```
+docker --host npipe:////./pipe/docker_engine info
+```
 
 # WSL
 
@@ -48,3 +74,11 @@ https://developer.aliyun.com/mirror/
 # Setup VSCode
 
 EDIT THE SETTING FILE
+
+# python
+
+Python Releases for Windows | Python.org
+
+# java
+
+Get it on IntelliJ
