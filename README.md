@@ -1,14 +1,17 @@
 # new-pc
 
 # Get chrome
-https://www.google.cn/intl/zh-CN/chrome/
 
+https://www.google.cn/intl/zh-CN/chrome/
 
 # Setup Git
 
 https://git-scm.com/downloads/win
 
-# 
+1 Download git and install it
+2 Set git bin\* to system path
+
+#
 
 # DockerDesktop
 

@@ -14,4 +14,6 @@ user=`whoami`
 
 cp ${CUR_DIR}/vs-code.local.setting.json /c/Users/${user}/AppData/Roaming/Code/User/settings.json
 
-cat /c/Users/${user}/AppData/Roaming/Code/User/settings.json
+if [[ "$DEBUG" == "TRUE" ]] ; then
+    cat /c/Users/${user}/AppData/Roaming/Code/User/settings.json
+fi
