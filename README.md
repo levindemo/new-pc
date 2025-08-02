@@ -11,13 +11,30 @@ https://git-scm.com/downloads/win
 1 Download git and install it
 2 Set git bin\* to system path
 
-#
-
 # DockerDesktop
 
 https://www.docker.com/products/docker-desktop/
 
 ## setup -> Advance -> Manually update WSL2 by self
+
+# WSL
+
+```powershell
+wsl --update
+wsl --list --verbose
+```
+
+install online version (if fail, download the wsl package from : https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
+```
+wsl --list --online
+#wsl --install -d ubuntu
+wsl --install -d  Ubuntu-20.04
+```
+
+# Resource setup
+
+change the docker image location to non-system driver
 
 ## connect docker through pipe
 
@@ -33,21 +50,6 @@ verfication
 
 ```
 docker --host npipe:////./pipe/docker_engine info
-```
-
-# WSL
-
-```powershell
-wsl --update
-wsl --list --verbose
-```
-
-install online version
-
-```
-wsl --list --online
-#wsl --install -d ubuntu
-wsl --install -d  Ubuntu-20.04
 ```
 
 ```
