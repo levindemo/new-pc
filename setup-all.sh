@@ -5,6 +5,7 @@
 SCRIPT_FULL_PATH=$(realpath "${BASH_SOURCE[0]}")
 CUR_DIR=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
 
+export DEBUG="TRUE"
 
 echo "run in script ${CUR_DIR}"
 

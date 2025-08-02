@@ -2,6 +2,8 @@
 
 setup-scripts/window/setup-vscode.sh
 
+setup-scripts/window/setup-docker-mirrors.sh
+
 setup-scripts/docker-first-test.sh
 
 setup-scripts/setup-git.sh

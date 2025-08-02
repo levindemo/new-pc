@@ -11,12 +11,6 @@ https://git-scm.com/downloads/win
 1 Download git and install it
 2 Set git bin\* to system path
 
-# DockerDesktop
-
-https://www.docker.com/products/docker-desktop/
-
-## setup -> Advance -> Manually update WSL2 by self
-
 # WSL
 
 ```powershell
@@ -31,6 +25,12 @@ wsl --list --online
 #wsl --install -d ubuntu
 wsl --install -d  Ubuntu-20.04
 ```
+
+# DockerDesktop
+
+https://www.docker.com/products/docker-desktop/
+
+## setup -> Advance -> Manually update WSL2 by self
 
 # Resource setup
 
